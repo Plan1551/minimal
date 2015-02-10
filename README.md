@@ -1,13 +1,12 @@
-Minimal Linux Live
+最小Linux Live
 =======
 
-Website:  http://minimal.linux-bg.org
+网站:  http://minimal.linux-bg.org
 
-Tutorial: http://minimal.linux-bg.org/the_dao_of_minimal_linux_live.txt
+教程: http://minimal.linux-bg.org/the_dao_of_minimal_linux_live.txt
 
 ===   ===   ===
 
-Other projects based on "Minimal Linux Live":
+本项目翻译基于https://github.com/ivandavidov/minimal
 
-* https://github.com/robocoder-db/busybox-linux
-即将开始汉化翻译
+
