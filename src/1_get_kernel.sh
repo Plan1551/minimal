@@ -1,23 +1,24 @@
 #!/bin/sh
 
-# Grab everything after the '=' character
+#Translate By Diaob
+# 获取'='号后面的每一个字符
 DOWNLOAD_URL=$(grep -i KERNEL_SOURCE_URL .config | cut -f2 -d'=')
 
-# Grab everything after the last '/' character
+# 获取最后一个'/'后的的字符
 ARCHIVE_FILE=${DOWNLOAD_URL##*/}
 
 cd source
 
-# Downloading kernel file
-# -c option allows the download to resume
+# 下载内核
+# -c 选项允许下载中断后恢复
 wget -c $DOWNLOAD_URL
 
-# Delete folder with previously extracted kernel
+# 删除之前解压内核的文件夹
 rm -rf ../work/kernel
 mkdir ../work/kernel
 
-# Extract kernel to folder 'kernel'
-# Full path will be something like 'kernel\linux-3.16.1'
+# 解压内核到 'kernel'文件夹
+# 文件夹中会出现如 'kernel\linux-3.16.1'的文件夹
 tar -xvf $ARCHIVE_FILE -C ../work/kernel
 
 cd ..

@@ -1,5 +1,9 @@
 #!/bin/sh
 
+#Simplified Chinese translated by Diaob
+#Contact :diaob#hotmail.com(change # into @)
+#Translate Time:2015-06-10
+#More:https://github.com/Diaob/minimal
 sh 0_prepare.sh
 sh 1_get_kernel.sh
 sh 2_build_kernel.sh
