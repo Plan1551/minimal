@@ -2,9 +2,8 @@
 =======
 什么是最小Linux Live(minimal linux live)？
 最小Linux Live就是一个用来生成最迷你的Linux Live版本的工具。
-生成的镜像文件仅仅几MB大小（译者实测8.04MB，2015年06月10日数据），可以方便
-地装进U盘或者做练习Linux命令的作用。
-=====
+生成的镜像文件仅仅几MB大小（译者实测8.04MB，2015年06月10日数据），可以方便地装进U盘或者做练习Linux命令的作用。
+
 使用方法：
 '''bash
 sh build_minimal_linux_live.sh 
