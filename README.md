@@ -21,14 +21,14 @@ sh build_minimal_linux_live.sh
 效果实例：
 生成完成结果：
 
-![ScreenShot](http://ww3.sinaimg.cn/mw1024/ed7abe25gw1epeqzeyyslj20s40exabf.jpg)
+![ScreenShot](https://raw.githubusercontent.com/Diaob/minimal/master/pic/generate.pn)
 
 开机结果：
 
-![ScreenShot](http://ww3.sinaimg.cn/mw1024/ed7abe25gw1epeqzeyyslj20s40exabf.jpg)
+![ScreenShot](https://raw.githubusercontent.com/Diaob/minimal/master/pic/Startsup.pn)
 
 uname结果：
-![ScreenShot](http://ww3.sinaimg.cn/mw1024/ed7abe25gw1epeqzeyyslj20s40exabf.jpg)
+![ScreenShot](https://raw.githubusercontent.com/Diaob/minimal/master/pic/uname.png)
 
 =====
 其它：
