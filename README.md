@@ -21,13 +21,16 @@ sh build_minimal_linux_live.sh
 效果实例：
 生成完成结果：
 
-![ScreenShot](https://raw.githubusercontent.com/Diaob/minimal/master/pic/generate.pn)
+
+![ScreenShot](https://raw.githubusercontent.com/Diaob/minimal/master/pic/generate.png)
 
 开机结果：
 
-![ScreenShot](https://raw.githubusercontent.com/Diaob/minimal/master/pic/Startsup.pn)
+
+![ScreenShot](https://raw.githubusercontent.com/Diaob/minimal/master/pic/Startsup.png)
 
 uname结果：
+
 ![ScreenShot](https://raw.githubusercontent.com/Diaob/minimal/master/pic/uname.png)
 
 =====
@@ -40,6 +43,8 @@ uname结果：
 	联系邮箱：diaob#hotmail.com （将#换成@）
 	高考刚考完，如果有哪个大学想录取我，可以发录取通知书给我哦
 	如果翻译不当，或有错误，请在issue中提出，谢谢！
+
+
 ===   ===   ===
 
 本项目翻译基于https://github.com/ivandavidov/minimal
