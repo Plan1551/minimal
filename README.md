@@ -7,7 +7,7 @@
 ###使用方法：
   ```sh build_minimal_linux_live.sh``` 
 ###或
-  ```./build_minimal_linux_live.sh```
+  ./build_minimal_linux_live.sh
 
 
 然后去喝杯咖啡在来吧！
