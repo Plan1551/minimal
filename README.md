@@ -5,9 +5,9 @@
 生成的镜像文件仅仅几MB大小（译者实测8.04MB，2015年06月10日数据），可以方便地装进U盘或者做练习Linux命令的作用。
 
 ###使用方法：
-  sh build_minimal_linux_live.sh 
+  ```sh build_minimal_linux_live.sh``` 
 ###或
-  ./build_minimal_linux_live.sh 
+  ```./build_minimal_linux_live.sh```
 
 
 然后去喝杯咖啡在来吧！
