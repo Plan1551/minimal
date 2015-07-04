@@ -1,0 +1,93 @@
+   
+	最小Linux之道
+
+	作者：	Ivan Davidov
+	
+   	网站:   http://minimal.linux-bg.org
+   
+	邮箱:   davidov (dot) i {at} gmail [dot] com
+
+	译者：	Diaob
+	联系方式：https://github.com/Diaob/
+	欢迎在项目主页纠错～
+
+	###	###	###
+	
+	目录
+
+	1.前言
+	2.启动过程
+	3.内置脚本
+	4.可能的改进
+	5.结束语
+	
+	###	###	###
+
+	1.前言
+	
+	请随意地编辑这份文档，只希望你能尊重我们[Davidov 和 Diaob :-) ]的辛勤劳动，并且请注明作者是Davidov。这就是所有我要求的。
+	
+	需要注意的是，这份“最小Linux之道”，是基于2014年7月28号的项目编写的。未来版本的脚本可能包含一些“可能的改进”章节里面的内容。
+
+	###	###	###
+	
+	2.启动过程
+	
+	尽管总体的系统启动过程是相当复杂的，但是我们需要了解这些细节因为我们在谈论的是操作系统，更确切地说，是基于Linux的操作系统。
+
+	你能在这个网站找到更详细概括的信息（自备梯子）：
+	
+            http://en.wikipedia.org/wiki/Linux_startup_process
+	
+	下面让我们来说说Linux Live版本总体的启动过程：
+	
+	1）BIOS把执行的控制权交给引导媒介（如CD，DVD，USB等）上的引导程序
+	2）多数情况下，引导程序是基于Syslinux。而在我们的引导媒介上我们有两个特殊的文件：内核文件和initramfs文件
+	3）引导媒介当然也包含一个特殊的配置文件来定位内核和initramfs文件的位置
+	4）Syslinux知道内核文件的位置之后，就把它载入内存，然后把控制权上交给国家（误），啊，是交给内核文件。
+	5）内核文件侦测到可用的硬件后，加载必要的驱动后把控制权交给initramfs。
+	6）initramfs实际上被内核文件在内存中解压。事实上执行控制权被交至/init文件夹内的shell脚本。
+	7）因为我们谈论的是最小Linux Live，所以/init文件夹内的脚本还不能做的很多。我们需要/init做的仅仅是为我们准备好必要的环境，并且为使用者提供shell。在很多的Linux Live分支中，/init文件夹内的脚本功能丰富。但是照我们现在的情况看来，我们知道是/init文件夹内的脚本拿取了控制权就足够了。
+
+	###	###	###
+
+	3.内置脚本
+
+	到目前为止，我们已经知道我们需要一些一些部件来把Linux系统制作出来：
+	1）引导程序 - 来让我们的媒介变得可引导
+	2）内核文件 - 负责初始化系统的引导过程
+	3）initramfs文件 - 为使用者初始化必要的环境
+
+	这个文档的重点放在第2）、3）部分上。我们这里不在详细地介绍第1）部分是因为我们接下去进行的制作过程已经自动地帮我们处理好了引导程序。
+
+	你下载的ZIP压缩文件包含以下文件：
+	 
+      		.config
+      		0_prepare.sh
+      		1_get_kernel.sh
+      		2_build_kernel.sh
+      		3_get_busybox.sh
+      		4_build_busybox.sh
+      		5_generate_rootfs.sh
+     	 	6_pack_rootfs.sh
+      		7_generate_iso.sh
+      		build_minimal_linux_live.sh
+
+	如果你已经按照发布在http://minimal.linux-bg.org的教程
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
