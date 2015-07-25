@@ -1,4 +1,5 @@
 #!/bin/sh
+   
 
 #Translated By Diaob
 rm -f minimal_linux_live.iso
@@ -14,4 +15,4 @@ make isoimage FDINITRD=../../rootfs.cpio.gz -j $(grep ^processor /proc/cpuinfo |
 
 cp arch/x86/boot/image.iso ../../../minimal_linux_live.iso
 
-cd ../../...
+cd ../../..
