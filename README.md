@@ -38,7 +38,7 @@ uname结果：
 教程（英文）: http://minimal.linux-bg.org/the_dao_of_minimal_linux_live.txt
 
 关于我（译者）：
-	联系邮箱：diaob#hotmail.com （将#换成@）
+	联系邮箱：diaobdiaob#gmail.com （将#换成@）
 	高考刚考完，如果有哪个大学想录取我，可以发录取通知书给我哦
 	如果翻译不当，或有错误，请在issue中提出，谢谢！
 
